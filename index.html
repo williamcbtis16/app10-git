@@ -1,0 +1,562 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta aplicación movil</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine4/style.css" />
+<script type="text/javascript" src="engine4/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/img2.png','imagenes/IMG_20170404_122150906.jpg','imagenes/IMG_20170404_122123110.jpg','imagenes/IMG_20170404_122109676.jpg','imagenes/IMG_20170404_122051640.jpg','imagenes/IMG_20170404_122026765.jpg','imagenes/batallac4.png','imagenes/batallac7.jpg','imagenes/cine10.jpg','imagenes/cine12.jpg','imagenes/cine14.jpg','imagenes/cine16.jpg','imagenes/me10.jpg','imagenes/me12.jpg','imagenes/me14.jpg','imagenes/me16.jpg','imagenes/me18.jpg','imagenes/medi10.jpg','imagenes/medi12.jpg','imagenes/medi14.jpg','imagenes/medi8.jpg','imagenes/medi16.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1> Carreras Universitarias</h1>
+  </div>
+  
+      <div data-role="main" class="ui-content">
+     <div>
+     </div></div>
+      <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         
+           <h2> CINEMATOGRAFÍA </h2>
+           <p>Información acerca de la carrera de la Cinematografía</p>
+        </a>
+        </li>
+          <li class="ui-first-child ui-last-child">
+             <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2> MECATRONICA </h2>
+                 <p>Información acerca de la carrera de la Mecatronica</p>
+            </a>
+        </li>                 <li class="ui-first-child ui-last-child">
+
+              <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                      <h2> MEDICINA </h2>
+                      <p>Información acerca de la carrera de la Medicina</p>
+          </a>
+        </li>
+                   <li class="ui-first-child ui-last-child">
+                     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                        <h2> DATOS DEL DESARROLLADOR</h2>
+                        <p>Te muestra los Datos del desarrollador</p>
+                     </a>
+            
+        </li>
+       
+       
+      
+			
+  </ul>
+    <p></p>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container4">
+<div class="ws_images"><ul>
+		<li><img src="data4/images/cine7.jpg" alt="" title="" id="wows4_0"/></li>
+		<li><img src="data4/images/cine1.jpg" alt="" title="" id="wows4_1"/></li>
+		<li><img src="data4/images/cine10.jpg" alt="" title="" id="wows4_2"/></li>
+		<li><img src="data4/images/me6.jpg" alt="" title="" id="wows4_3"/></li>
+		<li><img src="data4/images/me11.jpg" alt="" title="" id="wows4_4"/></li>
+		<li><img src="data4/images/me16.jpg" alt="" title="" id="wows4_5"/></li>
+		<li><img src="data4/images/medi5.jpg" alt="" title="" id="wows4_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data4/images/medi8.jpg" alt="http://wowslider.com/" title="" id="wows4_7"/></a></li>
+		<li><img src="data4/images/medi7.jpg" alt="" title="" id="wows4_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data4/tooltips/cine7.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data4/tooltips/cine1.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data4/tooltips/cine10.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data4/tooltips/me6.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data4/tooltips/me11.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data4/tooltips/me16.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data4/tooltips/medi5.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data4/tooltips/medi8.jpg" alt=""/>8</span></a>
+		<a href="#" title=""><span><img src="data4/tooltips/medi7.jpg" alt=""/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine4/wowslider.js"></script>
+<script type="text/javascript" src="engine4/script.js"></script>
+<!-- End WOWSlider.com BODY section -->   
+       
+   
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                     <div>
+                     
+                        <img src="imagenes/carl.png" width="46" height="46">
+                     </div>
+                        <div>
+                          <h4> Carreras Universitarias </h4>
+                          <h4> William Paul Corona Cano </h4>
+                     
+                     </div>
+  </div><!--footer-->
+</div> <!--page principal-->
+  </div>
+  </div><!--main-->
+  
+  
+                  
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+                          <h1> Cinematografía</h1>
+</div>
+<div data-role="main" class="ui-content" align="center">
+                          <div>
+                            <h2 class="a1"> <span class="a2">La cinematografía ha sido siempre una forma de arte única para las películas de todo tipo de género. Aunque la exposición de imágenes en elementos de luz sensible se remonta a la temprana era del siglo XX, las películas pedían una nueva forma de fotografía, y nuevas técnicas estéticas. "Es plasmar una percepción en imágenes en movimiento con o sin sonido, tal vez distorsionada en la mayoría de las realizaciones cinematográficas, pero con un sentido propio y de querer dar una visión más amplia, simple o compleja de la realidad, la historia, el concepto de futuro y de la ficción." (González Victor Raúl)
+
+ </span></h2>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/cine1.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/cine2.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><img src="data1/images/cine3.jpg" alt="" title="" id="wows1_2"/></li>
+		<li><img src="data1/images/cine4.jpg" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/cine5.png" alt="" title="" id="wows1_4"/></li>
+		<li><img src="data1/images/cine6.jpg" alt="" title="" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/cine7.jpg" alt="wow slider" title="" id="wows1_6"/></a></li>
+		<li><img src="data1/images/cine8.jpg" alt="" title="" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data1/tooltips/cine1.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cine2.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cine3.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cine4.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cine5.png" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cine6.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cine7.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cine8.jpg" alt=""/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">wowslider.net</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                         </div>
+</div>
+                          <Center>
+                          
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ghf','','imagenes/cine12.jpg',1)"><img src="imagenes/cine11.jpg" width="329" height="235" id="ghf"></a>
+<h1> Objetos de Cine </h1>                    </div>
+</div>
+      <h2>
+     En la infancia del largometraje, el cinematógrafo ejercía también el papel de director y la persona que sostenía la cámara. Al tiempo en el que el arte y la tecnología evolucionaron, emergió una separación entre el director y el operador de cámara. Con la llegada de la luz artificial y mayor rapidez en las películas (más sensibles a la luz) y de los avances tecnológicos como la películas en color y las panorámicas, resultó que la producción de películas especialmente en algunos aspectos técnicos requerían personal cada vez más especializado. La cinematografía fue clave durante la era del cine mudo –no había sonido aparte de la música de fondo, no había diálogo– y las películas se basaban en la iluminación, la actuación y la interpretación. </h2>
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('asd','','imagenes/cine10.jpg',1)"><img src="imagenes/cine9.jpg" width="411" height="211" id="asd"></a> 
+  <p></p>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://www.universia.net.mx/estudios/teatro-cinematografia/dp/661" data-role="button" id="beep">
+    <h2> Teatro y cine </h2>
+    </a>
+    </li>
+     <a href="http://www.sensacine.com/peliculas/noticias/" data-role="button" id="beep">
+    <h2> Noticias recientes </h2>
+    </a>
+    </li>
+    <a href="http://www.imcine.gob.mx/" data-role="button" id="beep">
+    <h2> Inst. cine Mexicano </h2>
+    </a>
+    
+    </ul>
+  </div>
+</div>
+    <h2>  <h2>
+            En la industria cinematográfica, el director de fotografía es el responsable de los aspectos técnicos de las imágenes (iluminación, elección de las cámaras, composición, exposición, los filtros, selección de la película), pero trabaja de cerca con el director para asegurar que la estética apoya la visión de la historia contada por el director. Los directores de fotografía son los responsables del cámara, el maquinista y el equipo de iluminadores en plató, y por ello suelen ser llamados directores de fotografía o DFs. Según la tradición inglesa, si el propio DF maneja la cámara, será llamado cinematógrafo. En pequeñas producciones generalmente todas esas funciones las cumple una sola persona. La progresíon de la carrera normalmente implica subir la escala en segundo lugar, para finalmente manejar la cámara. <h2> </h2>
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+                          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tr','','imagenes/cine14.jpg',1)"><img src="imagenes/cine13.jpg" width="328" height="198" id="tr"></a>
+<h1> Set de filmación </h1>                    </div>
+</div>
+<h2>Tradicionalmente el término “cinematografía” se ha referido al trabajo con una clase de película hecha con pintura al agua, pero ahora es un sinónimo de la videografía y el vídeo digital debido a la popularidad de la cinematografía digital. El Proceso de imagen moderno también hizo posible modificar imágenes de manera radical. Esto permitió a las nuevas disciplinas aprovechar algunas de las oportunidades que un día fueron del dominio exclusivo de los cinematógrafos. </h2>
+        <img src="imagenes/cine4.jpg" width="377" height="251">
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+         <a href="http://oferta.unam.mx/carreras/98/cinematografia" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         
+           <h2>Ofertas de la UNAM para entrar a esa carrera</h2>
+           <p>  </p>
+        </a>
+</li>
+<li class="ui-first-child ui-last-child">
+             <a href="https://www.definicionabc.com/general/cinematografia.php" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Pagina para saber mas de la cinematografía </h2>
+                 
+            </a>
+            
+</li>
+<p></p>
+<img src="imagenes/cine7.jpg" width="335" height="290">
+<h2> Los directores de fotografía toman muchas decisiones creativas e interpretativas en el transcurso de su trabajo, desde la preproducción hasta la postproducción, los cuales afectan el aspecto general de la película. Muchas de esas decisiones son similares a lo que un fotógrafo necesita tener en cuenta cuando va a hacer una foto: el cinematógrafo controla todas las decisiones de la película (from a range of available stocks with varying sensitivities to light and color), la selección de las cámaras, los focos, apertura, exposición y focos. Sin embargo la cinematografía tiene un aspecto temporal (ver persistencia de la visión), no como la fotografía, que es simplemente una imagen quieta. También es más voluminoso y agotador trabajar con cámaras de vídeo, e implica elecciones más complejas. Un cinematógrafo normalmente necesita trabajar en equipo más que un fotógrafo, quien frecuentemente puede ser una sola persona. Como resultado, el trabajo del cinematógrafo también incluye organización logística y gestión personal. </h2>
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+                          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ythg','','imagenes/cine16.jpg',1)"><img src="imagenes/cine15.jpg" width="339" height="249" id="ythg"></a>
+<h1> Rollo de pelicula </h1>                    </div>
+</div>
+                          
+                          
+                          
+                          
+                          
+            <center>
+            
+        
+    
+        
+
+             
+        
+        
+       
+                          
+<div data-role="footer" data-theme="a" data-position="fixed">
+    <img src="imagenes/carl.png" width="46" height="46">
+    <h4> Carreras Universitarias </h4>
+                          <h4> William Paul Corona Cano </h4>
+</div>
+  </div>
+                        
+                          
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+                            <h1> Ingeniería Mecatronica</h1>
+                            </div>
+<div data-role="content" align="center">
+                            <div>
+                               <h2> La ingeniería mecatrónica es una disciplina que une la ingeniería mecánica, ingeniería electrónica, ingeniería de control e ingeniería informática, y sirve para diseñar y desarrollar productos que involucren sistemas de control para el diseño de productos o procesos inteligentes, lo cual busca crear maquinaria más compleja para facilitar las actividades del ser humano a través de procesos electrónicos en la industria mecánica, principalmente. Debido a que combina varias ingenierías en una sola, su punto fuerte es la versatilidad. </h2></div>
+  </div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/me1.jpg" alt="" title="" id="wows2_0"/></li>
+		<li><img src="data2/images/me2.jpg" alt="" title="" id="wows2_1"/></li>
+		<li><img src="data2/images/me3.png" alt="" title="" id="wows2_2"/></li>
+		<li><img src="data2/images/me4.jpg" alt="" title="" id="wows2_3"/></li>
+		<li><img src="data2/images/me5.jpg" alt="" title="" id="wows2_4"/></li>
+		<li><img src="data2/images/me6.jpg" alt="" title="" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/me7.jpg" alt="http://wowslider.com/" title="" id="wows2_6"/></a></li>
+		<li><img src="data2/images/me8.jpg" alt="" title="" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data2/tooltips/me1.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/me2.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/me3.png" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/me4.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/me5.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/me6.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/me7.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/me8.jpg" alt=""/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->                  
+<Center>
+  
+
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('hnm','','imagenes/me10.jpg',1)"><img src="imagenes/me9.jpg" width="303" height="248" id="hnm"></a>
+<p></p>
+        
+          <h1> Ejemplo de Robots  </h1>
+          <p></p>
+                          </div>
+      </div>
+ 
+ <h2> Un consenso común es describir a la mecatrónica como una disciplina integradora de las áreas de mecánica, electrónica e informática cuyo objetivo es proporcionar mejores productos, procesos y sistemas industriales. La mecatrónica no es, por tanto, una nueva rama de la ingeniería, sino un concepto recientemente desarrollado que enfatiza la necesidad de integración y de una interacción intensiva entre diferentes áreas de la ingeniería. </h2>
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gfhg','','imagenes/me12.jpg',1)"><img src="imagenes/me11.jpg" width="318" height="289" id="gfhg"></a>
+<h1> Software  </h1>
+          <p></p>
+                          </div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://admision.itesm.mx/imt" data-role="button" id="beep">
+    <h2> Pagina de Admision </h2>
+    </a>
+    </li>
+     <a href="http://oferta.unam.mx/carreras/54/ingenieria-mecatronica" data-role="button" id="beep">
+    <h2> Oferta UNAM </h2>
+    </a>
+    </li>
+    <a href="http://www.ipn.mx/educacionsuperior/Paginas/Ing-Mecatronica.aspx" data-role="button" id="beep">
+    <h2> Inst. Nacional </h2>
+    </a>
+    
+    </ul>
+      </div>
+      </div>
+    <h2>  <h2>
+           La mecatrónica nace para suplir tres urgentes necesidades latentes; la primera, encaminada a automatizar la maquinaría y lograr así procesos productivos ágiles y confiables; la segunda crear productos inteligentes, que respondan a las necesidades del mundo moderno; y la tercera, por cierto muy importante, armonizar entre los componentes mecánicos y electrónicos de las máquinas, ya que en muchas ocasiones, era casi imposible lograr que tanto mecánica como electrónica manejaran los mismos términos y procesos para hacer o reparar equipos. <h2> </h2>
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+                          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('233323fds','','imagenes/me14.jpg',1)"><img src="imagenes/me13.jpg" width="354" height="203" id="233323fds"></a>
+<h1> Artefactos </h1>                    
+</div>
+</div>
+<h2> Un ingeniero en mecatrónica es un profesional con amplio conocimiento teórico, práctico y multidisciplinario capaz de integrar y desarrollar sistemas automatizados y/o autónomos que involucren tecnologías de varios campos de la ingeniería. Este especialista entiende sobre el funcionamiento de los componentes mecánicos, eléctricos, electrónicos y computacionales de los procesos industriales, y tiene como referencia el desarrollo sostenible. </h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jvnvc','','imagenes/me16.jpg',1)"><img src="imagenes/me15.jpg" width="373" height="245" id="jvnvc"></a>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+        <a href="http://www.umad.edu.mx/mecatronica/" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         
+           <h2>Página de UMAD</h2>
+           <p>  </p>
+        </a>
+</li>
+<li class="ui-first-child ui-last-child">
+  <a href="http://www.ingenieria.uady.mx/licenciaturas/mecatronica/" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Página UADY </h2>
+                 
+            </a>
+            
+</li>
+<p></p>
+<h2>
+Un ingeniero mecatrónico se capacita para:
+
+Diseñar, construir e implementar productos y sistemas mecatrónicos para satisfacer necesidades emergentes, bajo el compromiso ético de su impacto económico, social, ambiental y político.
+Generar soluciones basadas en la creatividad, innovación y mejora continua de sistemas de control y automatización de procesos industriales.
+Apoyar a la competitividad de las empresas a través de la automatización de procesos. </h2>
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image49','','imagenes/me18.jpg',1)"><img src="imagenes/me17.jpg" width="280" height="244" id="Image49"></a>
+<p></p>
+        
+          <h1> Robots grandes  </h1>
+          <p></p>
+  </div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+   <img src="imagenes/carl.png" width="46" height="46">
+    <h4> Carreras Universitarias </h4>
+                          <h4> William Paul Corona Cano </h4>
+</div>
+</div>
+</div>                        
+                            
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                               <h1> Medicina </h1>
+    </div>
+<div data-role="content" align="center">
+                            <div>
+                               <h2>La Medicina (del latín medicina, derivado a su vez de mederi, que significa 'curar', 'medicar')1 es la ciencia dedicada al estudio de la vida, la salud, las enfermedades y la muerte del ser humano, e implica ejercer tal conocimiento técnico para el mantenimiento y recuperación de la salud, aplicándolo al diagnóstico, tratamiento y prevención de las enfermedades. La medicina forma parte de las denominadas ciencias de la salud.</h2>
+                            </div>
+  </div>
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+  <li><img src="data3/images/medi2.jpg" alt="" title="" id="wows3_1"/></li>
+		<li><img src="data3/images/medi3.jpg" alt="" title="" id="wows3_2"/></li>
+		<li><img src="data3/images/medi4.jpg" alt="" title="" id="wows3_3"/></li>
+		<li><img src="data3/images/medi5.jpg" alt="" title="" id="wows3_4"/></li>
+		<li><img src="data3/images/medi6.jpg" alt="" title="" id="wows3_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data3/images/medi7.jpg" alt="bootstrap carousel" title="" id="wows3_6"/></a></li>
+		<li><img src="data3/images/medi8.jpg" alt="" title="" id="wows3_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data3/tooltips/medi1.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/medi2.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/medi3.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/medi4.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/medi5.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/medi6.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/medi7.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data3/tooltips/medi8.jpg" alt=""/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                              <Center>
+  
+
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+  
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bdvc','','imagenes/medi10.jpg',1)"><img src="imagenes/medi9.jpg" width="327" height="179" id="bdvc"></a>
+<p></p>
+        
+          <h1> Cirujías </h1>
+          <p></p>
+                          </div>
+      </div>
+ 
+ <h2>Durante los siglos XV y XVI, una parte de la medicina, la anatomía sufrió un gran avance gracias a la aportación del genio renacentista Leonardo Da Vinci, quien proyecto junto con Marcantonio Della Torre (1481-1511); un médico anatomista de Pavía; uno de los primeros y fundamentales tratados de anatomía, denominado Il libro dell'Anatomia. Aunque la mayor parte de las más de 200 ilustraciones sobre el cuerpo humano que realizó Leonardo Da Vinci para este tratado desaparecieron, se pueden observar algunas de las que sobrevivieron en su Tratado sobre la pintura. </h2>
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lkhf','','imagenes/medi12.jpg',1)"><img src="imagenes/medi11.jpg" width="303" height="226" id="lkhf"></a>
+<h1> Instrumentos de medicina  </h1>
+          <p></p>
+                          </div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/medicina_1" data-role="button" id="beep">
+    <h2> Lic. medicina BUAP </h2>
+    </a>
+    </li>
+     <a href="http://www.upaep.mx/index.php?option=com_content&view=article&id=162&Itemid=167" data-role="button" id="beep">
+    <h2> Lic. medicina UPAEP </h2>
+    </a>
+    </li>
+    <a href="https://www.universidaduvm.mx/licenciatura-en-medicina" data-role="button" id="beep">
+    <h2> Lic. medicina UVM </h2>
+    </a>
+    
+    </ul>
+      </div>
+      </div>
+    <h2>  <h2>
+           Los fines de la Medicina son:
+<p></p>
+
+-La prevención de enfermedades y lesiones y la promoción y la conservación de la salud.
+<p> </p>
+-El alivio del dolor y el sufrimiento causados por males.
+<p> </p>
+
+
+-La atención y curación de los enfermos y los cuidados a los incurables.
+<p> </p>
+
+-La evitación de la muerte prematura y la búsqueda de una muerte tranquila. 
+<h2> </h2>
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+                      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('dwqs','','imagenes/medi14.jpg',1)"><img src="imagenes/medi13.jpg" width="261" height="234" id="dwqs"></a>
+<h1> Consultas </h1>                    
+</div>
+</div>
+<h2>La práctica de la medicina se ejerce dentro del marco económico, legal y oficial del sistema médico que es parte de los sistemas nacionales de salud pública (políticas sanitarias estatales). Las características bajo las cuales se maneja el sistema sanitario en general y el órgano médico en particular ejercen un efecto significativo sobre cómo el servicio de salud, y la atención sanitaria puede ser aprovechada por la población general. </h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pifd','','imagenes/medi8.jpg',1)"><img src="imagenes/medi7.jpg" width="304" height="231" id="pifd"></a>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+        <a href="http://www.ofertaeducativa.uson.mx/index.php/division-de-ciencias-biologicas-y-de-la-salud/licenciatura-en-medicina/" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         
+           <h2>Oferta Educativa de Medicina</h2>
+           <p>  </p>
+        </a>
+</li>
+<li class="ui-first-child ui-last-child">
+  <a href="http://moodle.medicina.uaslp.mx/moodle/" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Facultad de Medicina UASLP </h2>
+                
+  </a>
+            
+</li>
+<p></p>
+<h2>
+El grado de medicina tiene 2 ciclos de 3 años cada uno. Los dos primeros años se dedican al estudio del cuerpo humano en estado de salud, así como de las ciencias básicas (Física, Estadística, Historia de la Medicina, Psicología, Bioquímica, Genética...). El tercer año se dedica a los estudios de laboratorio y a la Patología General médica y quirúrgica. Los 3 años del segundo ciclo suponen un estudio general de todas y cada una de las especialidades médicas, incluyendo muchas asignaturas prácticas en los Hospitales Clínicos asociados a las Facultades de Medicina.</h2>
+<div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ass','','imagenes/medi16.jpg',1)"><img src="imagenes/medi15.jpg" width="251" height="239" id="ass"></a>
+<p></p>
+        
+          <h1> Dibujos de Medicina  </h1>
+          <p></p>
+  </div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <img src="imagenes/carl.png" width="46" height="46">
+    <h4> Carreras Universitarias </h4>
+                          <h4> William Paul Corona Cano </h4>
+</div>
+</div>
+</div>                        
+                             
+                              
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+                                <h1> Datos del Desarrollador</h1>
+  </div>
+                            <div data-role="content" align="center">
+                            <div>
+                               <h2>
+Nombre del Alumno: William Paul Corona Cano
+<p></p>
+Semestre 4°
+<p></p>
+Grupo: "G"
+<p></p>
+Submodulo: Desarrolla Aplicaciones Moviles
+<p></p>
+Nombre del Docente: José Antonio Gomez Hernandez </h2>        
+             
+  <div data-role="footer" data-theme="a" data-position="fixed">
+                                   <img src="imagenes/carl.png" width="46" height="46">
+                                   <h4> Carreras Universitarias </h4>
+                          <h4> William Paul Corona Cano </h4>
+  </div>
+</div>
+</div>
+
+
+
+                                                                                                                                                                                                         
+</body>
+</html>
